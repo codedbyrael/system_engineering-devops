@@ -1,1 +1,1 @@
-week 6
+This directory contains scripts for shell variables and expansions.
