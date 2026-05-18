@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script displays directory contents without hidden files and prints only part after first dash
+
+for file in *
+do
+    if [ -e "$file" ]; then
+        echo "$file" | cut -d '-' -f2-
+    fi
+done
